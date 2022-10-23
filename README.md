@@ -37,6 +37,18 @@ Após criarmos o Dockerfile, será necesário realizar a build da imagem, sendo 
 
 `⚠️ A cada modificação que realizarmos no código, será necessário realizar um novo build`
 
+Com o diretório do projeto aberto no terminal, para realizar o build, basta digitar o comando:
+
+```bash
+docker build .
+```
+
+Caso o diretório não esteja aberto no terminal:
+
+```bash
+docker build <diretório da imagem>
+```
+
 ## 3o passo: Criar um container da imagem e executá-lo
 Após realizar o build da imagem, podemos encontra-la através do comando:
 
