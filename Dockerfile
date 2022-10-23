@@ -1,8 +1,8 @@
 FROM node
 
-WORKDIR '/src'
+WORKDIR /src
 
-COPY package*.json '/src'
+COPY package.json /src
 
 RUN npm i
 
